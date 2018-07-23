@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  padding-top: 80px;
+}
+
+.image {
+  position: relative;
+  text-align: right;
+  cursor: pointer;
+}
+
+.image h2 {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  color: white;
+  cursor: default;
+}
+
+.image h2:hover {
+  color: red;
+}
+
+.size {}
+
+.cost {
+  float: right;
+}
