@@ -1,5 +1,5 @@
 body {
-  padding-top: 80px;
+  padding-top: 134px;
 }
 
 .image {
@@ -8,6 +8,25 @@ body {
   cursor: pointer;
 }
 
+.image img {
+  width: 100%;
+  height: 33vw;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 134px;
+  }
+
+  .image img {
+    height: 100vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    padding-top: 110px;
+  }
+}
 .image h2 {
   position: absolute;
   bottom: 0px;

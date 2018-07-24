@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngFor="let dress of dresses; let index = index; let last = last">
+      <div class="w-100" *ngIf="index % 3 == 0;"></div>
+      <div class="col-md">
+        <app-dress [dress]="dress"></app-dress>
+      </div>
+      <div class="col-md" *ngIf="last && index % 3 == 0;"></div>
+      <div class="col-md" *ngIf="last && index % 3 == 0;"></div>
+      <div class="col-md" *ngIf="last && index % 3 == 1;"></div>
+    </ng-container>
+  </div>
+</div>
