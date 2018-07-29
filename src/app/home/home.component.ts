@@ -10,10 +10,12 @@ import { DressService } from '../service/dress.service';
 })
 export class HomeComponent implements OnInit {
   dresses: Dress[];
+
   getDresses(): void {
     this.dressService.getDresses()
       .subscribe(dresses => this.dresses = dresses);
   }
+  
   constructor(private dressService: DressService) { }
 
   ngOnInit() {
