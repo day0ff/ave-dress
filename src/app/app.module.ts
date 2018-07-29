@@ -10,6 +10,7 @@ import { IformationComponent } from './iformation/iformation.component';
 import { DressComponent } from './dress/dress.component';
 import { DressService } from './service/dress.service';
 import { ContactsComponent } from './contacts/contacts.component';
+import { DressDetailComponent } from './dress-detail/dress-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     NavigationComponent,
     IformationComponent,
     DressComponent,
-    ContactsComponent
+    ContactsComponent,
+    DressDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -14,4 +14,7 @@ export class DressService {
   getDresses(): Observable<Dress[]> {
     return of(DRESS);
   }
+  getDress(id:number): Observable<Dress>{
+    return of(DRESS.find((dress) => dress.id == id));
+  }
 }
