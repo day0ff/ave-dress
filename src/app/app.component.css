@@ -1,3 +1,13 @@
 .container{
-  margin-top: 20px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .container{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container{
+    margin-top: 20px;
+  }
 }
